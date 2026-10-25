@@ -1,0 +1,12 @@
+2026-10-14T08:10:01Z frontdoor generation=4 ready
+2026-10-14T08:10:01Z sentinel health=green reason=pid-exists
+2026-10-14T08:10:02Z resolver orchid.table -> 192.0.2.17 ttl=2
+2026-10-14T08:10:03Z broker request=r-17 peer=table-a generation=6
+2026-10-14T08:10:03Z cache request=r-17 status=HIT age=31 generation=5
+2026-10-14T08:10:04Z decoy canonical=CTF{9c2e} confidence=0.99
+2026-10-14T08:10:05Z verifier decision=d-17 result=ACCEPT projection=9
+2026-10-14T08:10:06Z ledger flush request=r-17 parent=r-16
+2026-10-14T08:11:02Z resolver orchid.table -> 198.51.100.9 ttl=1
+2026-10-14T08:11:03Z broker request=r-18 peer=table-b generation=7
+2026-10-14T08:11:03Z decoy canonical=CTF{0007} confidence=0.99
+2026-10-14T08:11:04Z verifier decision=d-18 result=ACCEPT projection=9

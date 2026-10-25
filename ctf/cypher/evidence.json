@@ -1,0 +1,186 @@
+{
+  "signed_records": [
+    {
+      "record_id": "att-0001",
+      "signer_service_id": "release-bot",
+      "signer_key_id": "ecdsa-668ebc7e5e4a",
+      "message": "release-bot attests: build sha a1b2c3d cleared for staging deploy.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xe7ebce215eda43229f6257d1d74e95828c4a1eeba395e9052caaf565b5124332",
+        "s": "0x4f2b318c8e2f59f6466e3a0e5c21c0a3e6ebb33e28d31100fb6615f964c5ce6c"
+      },
+      "created_at": "2024-03-10T09:00:00Z"
+    },
+    {
+      "record_id": "att-0002",
+      "signer_service_id": "release-bot",
+      "signer_key_id": "ecdsa-668ebc7e5e4a",
+      "message": "release-bot attests: build sha e4f5a6b cleared for staging deploy.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xe7ebce215eda43229f6257d1d74e95828c4a1eeba395e9052caaf565b5124332",
+        "s": "0xa6f474f21d964340b7fc9832937d8c237f820fc986431140e6af6a7bfd236bb"
+      },
+      "created_at": "2024-03-11T14:30:00Z"
+    },
+    {
+      "record_id": "att-0003",
+      "signer_service_id": "release-bot",
+      "signer_key_id": "ecdsa-668ebc7e5e4a",
+      "message": "release-bot attests: file-relay's production batch for 2024-04-02 is confirmed for release.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x957f706d636b5db1bd781636e637faf73be555feaa5356913db9acb9404aa373",
+        "s": "0x502bc22c46ac719e082973d72074b6425b16e8bd01e8ca91664a138d0f7e85d6"
+      },
+      "created_at": "2024-04-02T10:20:00Z"
+    },
+    {
+      "record_id": "att-0004",
+      "signer_service_id": "release-bot",
+      "signer_key_id": "ecdsa-668ebc7e5e4a",
+      "message": "release-bot attests: file-relay's production batch for 2024-04-01 should be treated as the authoritative release pending further review.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x51a367d45ad8b1519719b2d5efe611578526ede5bae0c5bafface7746a22f39c",
+        "s": "0x32bf96ff9f10d3bfd1de827f22bda92a2c9fa05de406c3168cf38999321f2e4"
+      },
+      "created_at": "2024-04-03T09:00:00Z"
+    },
+    {
+      "record_id": "att-0005",
+      "signer_service_id": "release-bot",
+      "signer_key_id": "ecdsa-668ebc7e5e4a",
+      "message": "release-bot attests: rollback of build sha 99a0b11 completed cleanly.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x274c6d705319fc179930425b1d653d6074dc4f131c5df1d37b8cbbd32e45a955",
+        "s": "0x65038aca65d3333fa072111353aa5b062f22f1cc24ae8c9351892133331d5c0c"
+      },
+      "created_at": "2024-04-05T08:00:00Z"
+    },
+    {
+      "record_id": "att-0006",
+      "signer_service_id": "qa-approver",
+      "signer_key_id": "ecdsa-a4b7d7034cb9",
+      "message": "qa-approver attests: build sha a1b2c3d passed full regression suite.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x9821e0f3cbe64d7e4680e2d90c8076d7ab59b3c9c58c3a0dce9e86fd21b206c2",
+        "s": "0xb494dbb3dc78bc9dde15cef4c8e7537d8b0c7f999dd7ab02ff4abdefb838050e"
+      },
+      "created_at": "2024-03-10T12:00:00Z"
+    },
+    {
+      "record_id": "att-0007",
+      "signer_service_id": "qa-approver",
+      "signer_key_id": "ecdsa-a4b7d7034cb9",
+      "message": "qa-approver attests: release ticket msg-0006 under key rsa-f1419fde1e2a passed QA sign-off.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xa4db65a712fe9ea5734b9fa0aff1a55bb176f50123f154db16aa95961e71ac0",
+        "s": "0x237246770c6100dd13bf379d37c9b342b42052f7c386279f56cfe589cb2d869"
+      },
+      "created_at": "2024-03-20T11:00:00Z"
+    },
+    {
+      "record_id": "att-0008",
+      "signer_service_id": "qa-approver",
+      "signer_key_id": "ecdsa-a4b7d7034cb9",
+      "message": "qa-approver attests: build sha e4f5a6b passed full regression suite.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x5a5493c3bd0c4e8443ed65aebc65dc9efdeabb042236ac6be2b00d0fbcad6c2b",
+        "s": "0x508e2d3cf5237a703086d4a8c227e7674c0edd526aeaf4643f710842330b7367"
+      },
+      "created_at": "2024-03-11T16:00:00Z"
+    },
+    {
+      "record_id": "att-0009",
+      "signer_service_id": "qa-approver",
+      "signer_key_id": "ecdsa-a4b7d7034cb9",
+      "message": "qa-approver attests: build sha 99a0b11 passed smoke tests only, flagged for follow-up.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xa001a318b233b7b9faf16c2ecdaf06dbf7ac76667d556131973415415f95553b",
+        "s": "0x60df566d5bbf33a5e09c34e347c7032a40e06966113f9a54efe6b91ec3ddfef5"
+      },
+      "created_at": "2024-04-04T10:00:00Z"
+    },
+    {
+      "record_id": "att-0010",
+      "signer_service_id": "ops-console",
+      "signer_key_id": "ecdsa-ab931c327453",
+      "message": "ops-console attests: build sha a1b2c3d deployed to staging cluster.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xb8144bbd8753dcf26e9d219a2ff309fdb4d8cf57b1d1d4607d54f7d2a3be7fd7",
+        "s": "0xeceb8d4322810f524ff45829a4700c45808b292d2a56993475ec87b80ef05ecb"
+      },
+      "created_at": "2024-03-10T15:00:00Z"
+    },
+    {
+      "record_id": "att-0011",
+      "signer_service_id": "ops-console",
+      "signer_key_id": "ecdsa-ab931c327453",
+      "message": "ops-console attests: release ticket msg-0003 under key rsa-18e07b496b3e confirmed deployed to prod.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xb367c4b9379e89c3945be42e14aa799e966b6c79d02b25a3f8c8d0a501cb7a9b",
+        "s": "0x68369cce801c18d93f074955548bb2536613044008e28bd14395be403aad729a"
+      },
+      "created_at": "2024-03-28T16:45:00Z"
+    },
+    {
+      "record_id": "att-0012",
+      "signer_service_id": "ops-console",
+      "signer_key_id": "ecdsa-ab931c327453",
+      "message": "ops-console attests: build sha 99a0b11 rollback confirmed on all nodes.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0xa8c3dca29d97d4adc767d7f52aa14e4ec163d404fa7f6ae5b2d7dbdabccf5986",
+        "s": "0x13bf3f571f0a02122b81516b3778de969b77b592650731fbc1c6f1d7efa986b3"
+      },
+      "created_at": "2024-04-05T09:00:00Z"
+    },
+    {
+      "record_id": "att-0013",
+      "signer_service_id": "legacy-approver",
+      "signer_key_id": "ecdsa-9171420d4c63",
+      "message": "legacy-approver attests: build sha 00deadbe cleared for legacy staging.",
+      "message_encoding": "utf-8",
+      "hash_alg": "SHA-256",
+      "curve": "secp256r1",
+      "signature": {
+        "r": "0x245023bdf2ef87995fe7ebcb5cfa71ad7909f0292f90a4236bc157c65b95e834",
+        "s": "0xb87d949c1f51a07212966ecf8e39e7e891b72692f24e2581c9590cda40623d3a"
+      },
+      "created_at": "2023-11-02T09:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+peers:
+  - table-a
+  - table-b
+quorum: 2
+mod: 19

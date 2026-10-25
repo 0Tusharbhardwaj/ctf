@@ -1,0 +1,4 @@
+ORCHID LOOKUP MANIFEST / generation 7
+resource_status=missing-after-migration
+checksum=unavailable
+note: table body and parameter header were truncated during migration; contents unrecoverable

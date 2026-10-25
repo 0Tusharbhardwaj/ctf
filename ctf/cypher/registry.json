@@ -1,0 +1,208 @@
+{
+  "services": [
+    {
+      "service_id": "file-relay",
+      "description": "Internal release-ticket relay between staging and prod.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-f10091d49ddc",
+          "modulus_n": "0x79aea790e2d3833f18036da865197c45b733886fb2a99c686985e8e18475c1068ee3fcb04122ff078ce72120a9d312167e011c252169b75577c209a2e19cfdfd198a0bc3af19b46a870caf684cf0ebc4bc5206aecc6d97ed99277ba3f3c6e4c8b4dd07cacda635226d55e981385f87d2fa3b501e2b44368c3db0554968eabf0a35568a5391668ae2f01eaf4f73935e0cd586521fdf51d0e6e8dd33297a20819fcdc41a14bebb0e06675f2e25bc4b87b1b19f227cf982756e5e805f4b11615d673532c620d9b3fd83173604dd23f1b2a74357c1ad4618fff9514f51b1a7a5982914a4da2858be7c1a5af7bd1e9875aea69f663414650e6f69bee7414c9f33d2c1",
+          "exponent_e": 65537,
+          "key_size_bits": 2047,
+          "status": "active",
+          "registered_at": "2024-02-14T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "archive-sync",
+      "description": "Nightly archive sync of closed release tickets.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-18e07b496b3e",
+          "modulus_n": "0x67bd6b2c6c90b1f6b452e610f798d31a86d1e96ae6a1603aeac6e3011d8a7eded25631e508182c4d5ca9bcd3c4205adbf77990ae8a2076ba70ee8d386fa0f9ef97e07c33396f727d0cffd3993978aeb6e6e99ddf86288bbee3c57c5ecf9dad1f710761e772e7eaf39644be2f4b13bc5fcbcefed28d72db6dd7948f181ffcbb3d00975fdbf18108b4a244d2afb67130e6e0f44913e0b6152c9a7a8985bb2b4966e0c4001a2a45708dd2d4cc423897402979e885adab4a2c50fd88ca7ec65d998af8b6e9f405f302d01d2d307c0b01a95b739963ff1ca4db41bf55c54c35d3a5f43b57b8f025882258ebe4de56665bd62b4911e062f2c3723b6eae553ddc430b31",
+          "exponent_e": 65537,
+          "key_size_bits": 2047,
+          "status": "active",
+          "registered_at": "2024-02-18T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "ticket-intake",
+      "description": "Front door for incoming support/release tickets.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-da38119ea73e",
+          "modulus_n": "0x84a9597f9ff0a17999a1edcff431433a07becbacd38c36b89030b5086433707c10c6563eb0f409e396fce5bea8cba818b0ff6de707f097440c45ac4ff75cd463c6e49694ff17eec4c11d33f796bd12a566cc8d7aa5f64f17b4b35d5f7974931cbf5088076da5608b13529e0600da6eb062bbfc5a8622240c3bdc1e9156ed71d700f203500692d940885c4c5ab345a6fb15cfb167c5a580310951e6e582d6df961b507ddd604adad1e38afa044c0c15c268de6164c27ee843e49054b5b20ba7003bb74b71551e1871786a34e1a2744b0ac6bbaa9f44c8e2cbeb420005a75f3c0e33090a4359aa184e43c0d53c2f131d4a26adf2d412a3a91dd029bc61b4f1b9ad",
+          "exponent_e": 65537,
+          "key_size_bits": 2048,
+          "status": "retired",
+          "registered_at": "2024-01-05T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "legacy infra team (pre-2024 migration)"
+        },
+        {
+          "key_id": "rsa-0bfbd3c463fe",
+          "modulus_n": "0xc6aa903f91e2a191bba39f31a37b789f159c38fb5aaaa92802bac739584c35428696b8c42d947ace451213ce41e4ccde9b9d035e1728e3a82df9159e771b4f0eb5dc709015da885259b0d7e2347df87ae19a0d322a0627837ed4f71aae5db2f6dc42baf07de4c741d671bc1216b5db065a9212a1e8d38366e16001991cb07d95d4a519258a6fd9b78ba6059cd1bdfeb126b45d5640b48bb9cc1a8c031964a9a7d6aad781fbbfb048790400887fcfbb2e44fee10f03ea93ae8824066c7b192b022f0248f03b9fd12b2a5906e52166dabc6ee1ae0a8329516510fedef288042f8625e3308b0c0d39dbac09c5ad7de0f51bc0187e223ac80bdc623d36e6c0996ce7",
+          "exponent_e": 65537,
+          "key_size_bits": 2048,
+          "status": "active",
+          "registered_at": "2024-03-01T09:00:00Z",
+          "source": "key_rotation",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "billing-worker",
+      "description": "Generates per-cycle invoice release tickets.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-f1419fde1e2a",
+          "modulus_n": "0xad466593bc30bb36d93220d157f95431b7628c56ebdb7e805ebbdb3edd63018cc7f13de390c899cfc570f88026355c9cd7acf54a733442c0cb5596f9213d307efbd79074221db57618951310c4d676457af4fbcdea7dc1c184056ffd9dcf5c1b10ae7c131d380a4a5cb3ab2bbdc1592e447de657ec5e2b2a4bb5825250f25e92baa225f74ebc5c4e047093bdb68532a30aaca9d400ebaf61180b5cbc841ea8855ff4fd9ce4e5a8455a1cf8b37c3af9667a0235c76d8eb15ce453176e5e6070e95638ec27c503854e311edae46f91d5bcfef167924e34742dc2c5cafe71721fff3500c8109a7063d4fc1319a84aa6bc5a5b2ea9e5eb3339fee8bfa75d3dbf2a37",
+          "exponent_e": 65537,
+          "key_size_bits": 2048,
+          "status": "active",
+          "registered_at": "2024-02-20T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "notify-hub",
+      "description": "Pushes release-complete notifications to subscribers.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-9e61f8742145",
+          "modulus_n": "0x62a4c96cd6ba7f51c7ef2c30196f0e0226eb08230aafbebac1bf3add30de0c4a5e4d95350552e401cd056576a306df2323e70e697da0e551470050ab3dcd5144b25fa4a21b410da2ba3f273ba08ac82b2142ca947c2e2a1f7379af09ba1d59835964486e19f1fd973aaa81f308d3dc1b49390bd6331354ff5d367dc6ef74c271509c84507fa63d225a8359d23cf423faec46f90a786627f2c722490b17522ee346040219d9c90702decc12614bc6deccce794c7ca4fbb46d2235c1b1424b825c241675c413594015cff5a6394863e076f864691edb7b287016a7954d8ab6187386194933483190a67aef3ec14eb9c4d302423ce6c421b2c833788b61e94fe647",
+          "exponent_e": 65537,
+          "key_size_bits": 2047,
+          "status": "active",
+          "registered_at": "2024-02-20T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "legacy-ticket",
+      "description": "Pre-rewrite ticket service, retired after the Q1 2024 migration.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-9628e8b93daa",
+          "modulus_n": "0x746520715c4905700bd729e76a7f0d917f33d01d1b5484e1f9a50b76065a7998f2a359978e857400dcbd75e1c2bd081b94e073886bb905f1a04239f6a329d7a1bdb9636f00ce222c20c8387f2e4382a6e8409855f7f99a953afdd31069bbb8cf3f84c736630d2d74ab7e8454480f5fa01a77593ba1469095e35f98516b488f0953141ba38fd7978579c8b244c8da661e01678262d3eafb60c93be917f2d758bcb3811c15e3da66f5f5eee1ba3df328f005d120df3f6ef58aa903ed4405ca2c4efed2e8912a377036e81254144034be4d7f805df6abf8ac2eb00a8c314aa2940d4548ba86aae59bbf521bca0ef42e00ae614aae7c416705391db4931ae90ecc25",
+          "exponent_e": 65537,
+          "key_size_bits": 2047,
+          "status": "retired",
+          "registered_at": "2023-09-01T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "legacy infra team (pre-2024 migration)"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "export-worker",
+      "description": "Nightly CSV export of released ticket batches.",
+      "rsa_keys": [
+        {
+          "key_id": "rsa-81bee153d1d1",
+          "modulus_n": "0xa3211beb14c69b0937e58b9b9b906485e42393b69d7454b4d795786d3b823e4b8cea93cced30d000b32fb1b4b08d29fd075b1ad687777703b0606074acf9e3a1a29ba9fa6e149f75af4fe59036eb7aa189196be87f86cd4c12e88dd695f40d476458e6d935402ff2155a34173ce5692bdfcda4347910b3f101b5453b77533b778183fb761710b6d789f8c1f4e866ad1b75d36316ae29508cad08883516039973df1a1f15531177036dc083593ef26824476701fccd0cdd9783b68c62fc3a951d475639dcb25e1aa58bcaa367c3154445852b78c3b604c484bd747efd25b79710da2cc30eba9279cad03ed9e7812fe880c520fabdcf83b8c4d69672b8eea6e41d",
+          "exponent_e": 65537,
+          "key_size_bits": 2048,
+          "status": "active",
+          "registered_at": "2024-02-20T09:00:00Z",
+          "source": "initial_provision",
+          "provisioned_by": "D. Keita"
+        }
+      ],
+      "ecdsa_keys": []
+    },
+    {
+      "service_id": "release-bot",
+      "description": "Automated signer for build/release attestations.",
+      "rsa_keys": [],
+      "ecdsa_keys": [
+        {
+          "key_id": "ecdsa-668ebc7e5e4a",
+          "curve": "secp256r1",
+          "public_x": "0x7f98011f0be1496e786a84367343cfdbf54a87c004f4d2279678bf38239107c3",
+          "public_y": "0xdd5155d6ebaff6a8cede2bf557b730f0c6aa1ac18970885707257b1e5f23b12b",
+          "status": "active",
+          "registered_at": "2024-01-20T09:00:00Z",
+          "source": "initial_provision",
+          "signed_off_by": "A. Voss"
+        }
+      ]
+    },
+    {
+      "service_id": "qa-approver",
+      "description": "Manual QA sign-off signer.",
+      "rsa_keys": [],
+      "ecdsa_keys": [
+        {
+          "key_id": "ecdsa-a4b7d7034cb9",
+          "curve": "secp256r1",
+          "public_x": "0xb3b8461f52b9ecfb43df55ce8144c5407650b336cf10cad1ca8ee0ea5b6862d7",
+          "public_y": "0xbe51799036c4c9463cf4ff84e4d1a3285e34265201fb44a33d7e706b1bca795c",
+          "status": "active",
+          "registered_at": "2024-01-20T09:00:00Z",
+          "source": "initial_provision",
+          "signed_off_by": "A. Voss"
+        }
+      ]
+    },
+    {
+      "service_id": "ops-console",
+      "description": "Ops team's deploy-confirmation signer.",
+      "rsa_keys": [],
+      "ecdsa_keys": [
+        {
+          "key_id": "ecdsa-ab931c327453",
+          "curve": "secp256r1",
+          "public_x": "0xc74e131f803d84627993a9e1f418e3a791875efe439d6419ed3fab7e9e9235c6",
+          "public_y": "0x75fd56512f5dd4f6cd137e09685c43e724d66cef1a522cd1db26d67b53d91286",
+          "status": "active",
+          "registered_at": "2024-01-20T09:00:00Z",
+          "source": "initial_provision",
+          "signed_off_by": "A. Voss"
+        }
+      ]
+    },
+    {
+      "service_id": "legacy-approver",
+      "description": "Pre-rewrite approval signer, retired after the Q1 2024 migration.",
+      "rsa_keys": [],
+      "ecdsa_keys": [
+        {
+          "key_id": "ecdsa-9171420d4c63",
+          "curve": "secp256r1",
+          "public_x": "0x4920d2590aeca3dd4fea6373d1a44ca42084a0a0c30ce3e13370d9e44b32368e",
+          "public_y": "0x60d098ef51d61c15bb931e355ef6b0d71f32de1ed8eadcfc0488b68be0454221",
+          "status": "retired",
+          "registered_at": "2023-09-01T09:00:00Z",
+          "source": "initial_provision",
+          "signed_off_by": "legacy infra team (pre-2024 migration)"
+        }
+      ]
+    },
+    {
+      "service_id": "dr-archiver",
+      "description": "Nightly disaster-recovery export of the release-ticket corpus to cold storage.",
+      "rsa_keys": [],
+      "ecdsa_keys": [],
+      "maintainer": "N. Oyelaran"
+    }
+  ]
+}

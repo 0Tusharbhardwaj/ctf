@@ -1,0 +1,154 @@
+Mar 01 21:00:11 aegis kernel: Linux version 6.8.0-aegis
+Mar 01 21:00:11 aegis kernel: module aegis loaded
+Mar 01 21:00:11 aegis kernel: entropy accumulator initialized
+Mar 01 21:00:11 aegis kernel: radio subsystem online
+Mar 01 21:00:11 aegis kernel: telemetry subsystem online
+
+Mar 01 21:00:12 aegis aegisd[120]: boot sequence start
+Mar 01 21:00:12 aegis aegisd[120]: boot_id=1
+Mar 01 21:00:12 aegis aegisd[120]: system_age=37
+Mar 01 21:00:12 aegis aegisd[120]: interrupt_accumulator=912
+Mar 01 21:00:12 aegis radio[188]: initializing channel
+Mar 01 21:00:13 aegis radio[188]: frequency=432.5MHz
+Mar 01 21:00:13 aegis radio[188]: sync acquired
+Mar 01 21:00:13 aegis radio[188]: secure session unavailable
+Mar 01 21:00:14 aegis net[201]: route validation complete
+Mar 01 21:00:14 aegis kernel: archive synchronization complete
+Mar 01 21:00:14 aegis aegisd[120]: boot sequence complete
+
+Apr 07 21:01:08 aegis kernel: module aegis loaded
+Apr 07 21:01:08 aegis kernel: entropy accumulator initialized
+Apr 07 21:01:08 aegis radio[188]: radio subsystem online
+Apr 07 21:01:08 aegis aegisd[120]: boot sequence start
+Apr 07 21:01:08 aegis aegisd[120]: boot_id=2
+Apr 07 21:01:08 aegis aegisd[120]: system_age=74
+Apr 07 21:01:08 aegis aegisd[120]: interrupt_accumulator=2481
+Apr 07 21:01:09 aegis kernel: rtc drift detected
+Apr 07 21:01:09 aegis radio[188]: synchronization complete
+Apr 07 21:01:10 aegis driver[77]: thermal state nominal
+Apr 07 21:01:10 aegis net[201]: interface healthy
+Apr 07 21:01:11 aegis kernel: hardware entropy source online
+Apr 07 21:01:11 aegis aegisd[120]: boot sequence complete
+
+May 14 21:05:33 aegis kernel: module aegis loaded
+May 14 21:05:33 aegis kernel: entropy accumulator initialized
+May 14 21:05:33 aegis radio[188]: radio subsystem online
+May 14 21:05:33 aegis aegisd[120]: boot sequence start
+May 14 21:05:33 aegis aegisd[120]: boot_id=3
+May 14 21:05:33 aegis aegisd[120]: system_age=111
+May 14 21:05:33 aegis aegisd[120]: interrupt_accumulator=5337
+May 14 21:05:34 aegis radio[188]: key schedule pending
+May 14 21:05:34 aegis radio[188]: channel quality=97
+May 14 21:05:34 aegis radio[188]: packet loss=0.02%
+May 14 21:05:35 aegis radio[188]: transmission window opened
+May 14 21:05:35 aegis radio[188]: transmission window closed
+May 14 21:05:35 aegis kernel: archive synchronization complete
+May 14 21:05:36 aegis aegisd[120]: boot sequence complete
+
+Jun 20 21:11:48 aegis kernel: module aegis loaded
+Jun 20 21:11:48 aegis kernel: entropy accumulator initialized
+Jun 20 21:11:48 aegis radio[188]: radio subsystem online
+Jun 20 21:11:48 aegis aegisd[120]: boot sequence start
+Jun 20 21:11:48 aegis aegisd[120]: boot_id=4
+Jun 20 21:11:48 aegis aegisd[120]: system_age=148
+Jun 20 21:11:48 aegis aegisd[120]: interrupt_accumulator=<corrupted>
+Jun 20 21:11:49 aegis kernel: telemetry sector unreadable
+Jun 20 21:11:49 aegis kernel: archive checksum mismatch
+Jun 20 21:11:50 aegis kernel: recovery attempt successful
+Jun 20 21:11:51 aegis radio[188]: sync acquired
+Jun 20 21:11:52 aegis aegisd[120]: boot sequence complete
+
+Jul 27 21:18:21 aegis kernel: module aegis loaded
+Jul 27 21:18:21 aegis kernel: entropy accumulator initialized
+Jul 27 21:18:21 aegis radio[188]: radio subsystem online
+Jul 27 21:18:21 aegis aegisd[120]: boot sequence start
+Jul 27 21:18:21 aegis aegisd[120]: boot_id=5
+Jul 27 21:18:21 aegis aegisd[120]: system_age=185
+Jul 27 21:18:21 aegis aegisd[120]: interrupt_accumulator=14192
+Jul 27 21:18:22 aegis radio[188]: channel synchronization complete
+Jul 27 21:18:22 aegis radio[188]: frequency=433.7MHz
+Jul 27 21:18:22 aegis radio[188]: packet loss=0.01%
+Jul 27 21:18:23 aegis archive[91]: telemetry snapshot stored
+Jul 27 21:18:23 aegis archive[91]: checksum verified
+Jul 27 21:18:24 aegis driver[77]: firmware version 2.4.1
+Jul 27 21:18:24 aegis driver[77]: thermal state nominal
+Jul 27 21:18:25 aegis kernel: archive synchronization complete
+Jul 27 21:18:25 aegis aegisd[120]: boot sequence complete
+
+Aug 02 21:23:12 aegis kernel: module aegis loaded
+Aug 02 21:23:12 aegis kernel: entropy accumulator initialized
+Aug 02 21:23:12 aegis radio[188]: radio subsystem online
+Aug 02 21:23:12 aegis aegisd[120]: boot sequence start
+Aug 02 21:23:12 aegis aegisd[120]: boot_id=6
+Aug 02 21:23:12 aegis aegisd[120]: system_age=222
+Aug 02 21:23:12 aegis aegisd[120]: interrupt_accumulator=28831
+Aug 02 21:23:13 aegis radio[188]: synchronization beacon received
+Aug 02 21:23:13 aegis radio[188]: channel quality=96
+Aug 02 21:23:14 aegis net[201]: route validation complete
+Aug 02 21:23:14 aegis net[201]: interface status healthy
+Aug 02 21:23:15 aegis kernel: scheduler tick updated
+Aug 02 21:23:15 aegis kernel: audit subsystem initialized
+Aug 02 21:23:16 aegis archive[91]: archive rotation complete
+Aug 02 21:23:16 aegis archive[91]: checksum verified
+Aug 02 21:23:17 aegis aegisd[120]: boot sequence complete
+
+Aug 08 21:30:44 aegis kernel: module aegis loaded
+Aug 08 21:30:44 aegis kernel: entropy accumulator initialized
+Aug 08 21:30:44 aegis radio[188]: radio subsystem online
+Aug 08 21:30:44 aegis aegisd[120]: boot sequence start
+Aug 08 21:30:44 aegis aegisd[120]: boot_id=7
+Aug 08 21:30:44 aegis aegisd[120]: system_age=259
+Aug 08 21:30:44 aegis kernel: archive fragment lost
+Aug 08 21:30:44 aegis kernel: unable to reconstruct telemetry
+Aug 08 21:30:45 aegis radio[188]: synchronization complete
+Aug 08 21:30:46 aegis kernel: fallback entropy source enabled
+Aug 08 21:30:47 aegis aegisd[120]: boot sequence complete
+
+Aug 14 21:34:12 aegis kernel: module aegis loaded
+Aug 14 21:34:12 aegis kernel: entropy accumulator initialized
+Aug 14 21:34:12 aegis radio[188]: radio subsystem online
+Aug 14 21:34:12 aegis aegisd[120]: boot sequence start
+Aug 14 21:34:12 aegis aegisd[120]: boot_id=8
+Aug 14 21:34:12 aegis aegisd[120]: system_age=296
+Aug 14 21:34:12 aegis aegisd[120]: interrupt_accumulator=16542
+Aug 14 21:34:13 aegis radio[188]: synchronization complete
+Aug 14 21:34:13 aegis radio[188]: channel quality=94
+Aug 14 21:34:14 aegis kernel: dma channel registered
+Aug 14 21:34:14 aegis kernel: memory pressure normal
+Aug 14 21:34:15 aegis archive[91]: telemetry snapshot stored
+Aug 14 21:34:15 aegis archive[91]: archive synchronization complete
+Aug 14 21:34:16 aegis driver[77]: watchdog heartbeat received
+Aug 14 21:34:16 aegis driver[77]: power calibration complete
+Aug 14 21:34:17 aegis aegisd[120]: boot sequence complete
+
+Aug 20 21:40:19 aegis kernel: module aegis loaded
+Aug 20 21:40:19 aegis kernel: entropy accumulator initialized
+Aug 20 21:40:19 aegis radio[188]: radio subsystem online
+Aug 20 21:40:19 aegis aegisd[120]: boot sequence start
+Aug 20 21:40:19 aegis aegisd[120]: boot_id=9
+Aug 20 21:40:19 aegis aegisd[120]: system_age=333
+Aug 20 21:40:19 aegis aegisd[120]: interrupt_accumulator=33118
+Aug 20 21:40:20 aegis radio[188]: channel synchronization complete
+Aug 20 21:40:20 aegis radio[188]: secure session pending
+Aug 20 21:40:21 aegis net[201]: route validation complete
+Aug 20 21:40:21 aegis net[201]: mtu=1500
+Aug 20 21:40:22 aegis archive[91]: telemetry snapshot stored
+Aug 20 21:40:22 aegis archive[91]: checksum verified
+Aug 20 21:40:23 aegis kernel: archive synchronization complete
+Aug 20 21:40:23 aegis radio[188]: communication profile loaded
+Aug 20 21:40:24 aegis aegisd[120]: boot sequence complete
+
+Aug 26 21:46:58 aegis kernel: module aegis loaded
+Aug 26 21:46:58 aegis kernel: entropy accumulator initialized
+Aug 26 21:46:58 aegis radio[188]: radio subsystem online
+Aug 26 21:46:58 aegis aegisd[120]: boot sequence start
+Aug 26 21:46:58 aegis aegisd[120]: boot_id=10
+Aug 26 21:46:58 aegis aegisd[120]: system_age=365
+Aug 26 21:46:58 aegis aegisd[120]: interrupt_accumulator=<redacted>
+Aug 26 21:46:59 aegis radio[188]: session profile delta selected
+Aug 26 21:46:59 aegis radio[188]: entropy checkpoint loaded
+Aug 26 21:47:00 aegis radio[188]: state transition complete
+Aug 26 21:47:00 aegis radio[188]: channel nonce generated
+Aug 26 21:47:00 aegis radio[188]: transmission package encrypted
+Aug 26 21:47:01 aegis radio[188]: output file radio.enc written
+Aug 26 21:47:02 aegis aegisd[120]: boot sequence complete

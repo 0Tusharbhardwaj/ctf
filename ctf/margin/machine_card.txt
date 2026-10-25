@@ -1,0 +1,6 @@
+CURRENT CARD (typed after the incident)
+Letters are numbered A=0 through Z=25. Add the key letter value to each message letter, modulo 26.
+Key: LANTERN
+Nonletters pass through unchanged.
+
+HANDWRITTEN MARGIN: “That was the old card. The wheel turns BACK now.”
